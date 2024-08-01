@@ -1,0 +1,828 @@
+Why we use doctype in HTML
+-to tell browser which version of html we are using.
+Head tag
+Meta data includes, heading
+Where to include script file in HTML?
+Include script files in HTML file just before closing the body tag
+In HTML we can create any tag names
+Inline – width and height, takes width of the content.
+Inblock - can give width and height, and it takes width of the parent element.
+Babel – compiler which converts JSX to JS so that it can be understandable.
+
+OOPs
+Polymosphism – one thing with many forms
+Abstraction - 
+Encapsulation - 
+Inheritance – Parent features in Children
+CSS – 
+To hide element
+
+Visibility – hidden, will take space
+Display – none, will not take space
+Padding – space inside element
+Margin – space around element
+== checks with the value
+=== checks with DataType of value
+Var global scope
+Let and const block scope, can’t re-declare
+
+.jsx – allows developer to write HTML in react
+.js -  simple scripting functionality, scripting language
+
+
+ES6 – better performance
+Slice, spread, promise, callbacks, desturctuing, let,const
+ES5 – 
+
+Routing – react router
+<Route path element={contact}/>
+Class – use life cycle methods
+Class Name extends React.component(){
+    Render(
+        Return(
+        )
+    )
+}
+Functional – use hooks – easy to reuse , understandable.
+
+
+Object.creact we can create an object.
+Sclice – don’t change original string used to extract a particular part of a string
+
+Diff Type script, Java script 
+
+TypeScript	
+
+Superset of JavaScript developed to overcome code complexity for large projects	
+Errors can be found and corrected during compile time	
+Strongly typed, supports both static and dynamic typing	
+Converted into JavaScript code to be understandable for browsers
+Since it is a superset, all the JavaScript libraries and code work without changes		
+Supports modules, generics, and interfaces to define data	
+Powerful and intuitive language for large projects	
+Community support is still growing	
+Takes time to learn and code, scripting knowledge is a must	
+Proper build setup (npm package) is required for static type definitions	
+
+JavaScript
+
+A scripting language that helps create dynamic web page content
+Errors can be found only during run-time as it is an interpreted language
+Weakly typed, no option for static typing
+Сan be directly used in browsers
+Libraries work by default
+No support for modules, generics, or interface
+Neat and clean, most suitable for simple web applications
+Huge community support with lots of documentation and support for solving issues
+Can be learned on the go, no prior scripting experience is needed
+No build setup is required
+
+
+JSX?
+JSX is the abbreviation of JavaScript XML. It is a file that is used in React to bring out the essence of JavaScript to React and use it for its advantages.
+It even includes bringing out HTML and the easy syntax of JavaScript. This ensures that the resulting HTML file will have high readability, thereby relatively increasing the performance of the application.
+Consider the following example of a JSX:
+render(){ 
+return(
+<div>
+<h1> Hello !</h1>
+</div>
+);
+}
+
+
+Can browsers read a JSX file?
+No, browsers cannot read JSX files directly.
+It can only read the objects provided by JavaScript.
+Now, to make a browser read a JSX file, it has to be transformed to a JavaScript object using JSX transformers, and only then it can be fed into the browser for further use in the pipeline.
+
+setTimeout(Function,ms) - executes only once when page is rendered, after certain time
+setInterval(Function,ms) - executes repeatedly after certain time period
+
+
+Authentication VS Authorisation:
+Authentication:
+You have permission to access a Git
+Authorisation :
+You only have authorisation to pull or push code to some repo’s on git, but not to review code or any other actions
+
+React JS
+The React.js framework is an open-source JS framework and library developed by Facebook Engineer in 2011. It’s used for building interactive user interfaces and web applications quickly and efficiently with significantly less code
+Current Version is 18.0
+
+
+Important features of React?
+React has multiple features that are used for unique purposes. The important ones are as mentioned below:
+React makes use of a single-direction data flow model.
+It deals with complete server-side data processing and handling.
+React uses Virtual DOM that has many advantages of its own. Performance is high, components re-used
+April 2024 : 
+React Compiler : compile react code to optimized JS code
+
+
+
+Features of ES6:
+Arrow functions
+Let and const
+Template Literals
+Promises
+Rest and spread
+Array and Object destructuring
+
+
+Why is React widely used today?
+React provides users with an ample number of advantages when building an application. Some of them are as follows:
+With React, Ul testing becomes very easy.
+React can integrate with Angular and other frameworks easily.
+The high readability index ensures easy understanding.
+React can be used for both client-side and server-side requirements.
+It boosts application performance and overall efficiency.
+Uni-directional Dataflow:
+Parent -> Child data flows, no two-way data binding.
+Easy to find bugs.
+
+Are there any disadvantages to using React?
+There are some limitations when using React as mentioned below:
+Writing code is complicated as it uses JSX and inline template formatting.
+Beginners might find it tough to cope with its syntaxes and methods.
+Are there any disadvantages to using React?
+The library contains a huge repository of information, which might be overwhelming.
+React is a simple library and not a complete framework hence calls for dependencies.
+
+Version of react 
+18.2.0
+Version of node
+-16.13.3
+-Recently using 18.16.1
+
+Virtual DOM in React JS?
+Blueprint of Real DOM, DOM(Document Object model) has a tree structure. Whenever we create a React app it creates a virtual DOM of real DOM, and if anything is updated then new virtual DOM is created Then it is compared with Original Virtual DOM and Updated Virtual DOM and then Real DOM is updated
+It is very fast react works on this.
+
+
+Diff Virtual DOM and Real DOM.
+Virtual DOM	Real DOM
+Changes can be made easily	Changes can be expensive
+Minimal memory wastage	High demand for memory and more wastage
+JSX element is updated if the element exists	Creates a new DOM every time an element gets update
+Cannot update HTML directly	Able to directly manipulate HTML
+Faster updates	Slow updates
+
+
+
+Backend technology 
+Java used
+
+
+Mounting vs Rendering
+Mounting => putting elements into the DOM.
+Rendering => the technique that can redirect a page with the help of function render()
+
+Mounting vs Rendering => Mounting occurs when a component is first added to the page, while rendering occurs when a component's state changes.
+
+
+
+Diff Shallow copy, deep copy
+Shallow Copy: Shallow repetition is quicker. However, it’s “lazy” it handles pointers and references. Rather than creating a contemporary copy of the particular knowledge the pointer points to, it simply copies over the pointer price. So, each of the first and therefore the copy can have pointers that reference constant underlying knowledge.
+Deep Copy: Deep repetition truly clones the underlying data. It is not shared between the first and therefore the copy.
+
+Let arr1 = [1,2,3];
+Let arr2 = arr1;
+Arr[1] = 4;
+Now arra1 and arr2 will be same, now this is shallow copy here the arr2 is stored in the same reference as the arr1 so if any modification happens both arr’s will be updated
+So we use Deep copy and now by using destructuring the array is stored in different references
+
+Let arr1=[1,2,3];
+Let arr2 = […arr1];
+Arr2[0]=5
+Now only arr2  will be updated and arr1 will remain same, this can also be done using slice() without giving index same arr1, elements will be copied to arr2 in a different reference.
+Let arr1=[1,2,3];
+Let arr2 = arr1.slice()
+
+Let obj1 = {
+Name: ‘Ram’,
+Age:20
+}
+
+Let obj2=Object.assign({},obj1);
+
+Shallow Copy
+
+Shallow Copy stores the references of objects to the original memory address.   	
+Shallow Copy reflects changes made to the new/copied object in the original object.	
+Shallow Copy stores the copy of the original object and points the references to the objects.	
+
+Deep Copy
+
+Deep copy stores copies of the object’s value.
+Deep copy doesn’t reflect changes made to the new/copied object in the original object.
+Deep copy stores the copy of the original object and recursively copies the objects as well.
+A shallow copy is faster.	Deep copy is comparatively slower.
+
+
+
+Creating React APP:
+The create-react-app in React is a simple command-line interface (CLI) that is used in the creation of React applications, which have no build configuration.
+All tools are pre-configured when using the CLI, and this allows users to focus on the code more than on dependencies to develop the application.
+The following syntax is used to start a simple project in React:
+Create-react-app my-app
+
+
+This keyword: refers to object which is executing the current code
+Const person = {
+Name : ‘Ram’,
+Age: 20,
+printInfo: function(){
+console.log(`My name is ${this.name} and age is ${this.age}`)
+}
+}
+Person.printInfo()
+
+
+Closure:
+Accessing variables of a function even its execution completes or out of its scope.
+Functions out(){
+Var x = 10;
+Function in(){
+Console.log(x)
+}
+Return in
+}
+
+Var res = out()
+Res()
+10
+
+
+Diff Let, const, var
+let -> block scoped stmt
+const -> block-scoped local variable
+var->function scoped
+let x = 10;
+if(x==10){
+ let x = 20;
+console.log(x); //prints 20
+}
+console.log(x); //prints 10;
+
+const -> block-scoped local variable
+
+const myName; //throws error as const needs to be initialized
+const myName='John';
+const myName='Doe'; //throws  error as const variable can not be reassigned
+var myName='Doe'; //throws error as myName is reserved for constant above,
+
+
+Call(), apply(),bind()
+Call()
+ 
+
+
+Callback function()
+Is a function that is passing as an argument to another function
+ Function one(val){
+Val()
+Console.log(‘HI’)
+}
+Function two(){
+Console.log(‘Hello’)
+} now this is a call back function
+One(two)
+
+function test(a){
+a()
+console.log(a);
+}
+test(function(){
+console.log(‘Inside call back’)
+})
+
+
+Diff Map, foreach
+The map() method creates a new array by applying a provided function to each element in the original array and returns the results in a new array. It is used for transforming or mapping array elements.
+Let arr1 = [1,2,3]
+Console.log(Arr1.map(ele => ele*2))
+It returns a new array without changing original array
+The forEach() method executes a provided function once for each array element but does not create a new array. It is typically used for performing actions on array elements without producing a new array.
+Let arr1 = [1,2,3]
+Console.log(Arr1.forEach((val,i,arr)=> arr[i] = val *2))
+It will not return array, now using forEach original array will also be updated.
+
+
+
+Predefined prop types present in React?
+There are five main predefined prop types in React. They are as follows:
+React.PropTypes.bool
+React. PropTypes.func
+React.PropTypes.node
+React.PropTypes.number
+React.PropTypes.string
+
+
+Router in React?
+A router is very much necessary in React as it is used to manage multiple routes whenever a user types in a URL. If the route is present in the router for that corresponding URL, then the user is taken to the particular route.
+
+To do this, the router library needs to be added in React. It can be done using the following syntax:
+<switch>
+<route exact path='/' component={Home}/>
+<route path='/posts/:id' component={Newpost}/> 
+<route path='/posts' component={Post}/> 
+</switch>
+
+
+What are events in React?
+Whenever there are actions performed in React, such as hovering of the mouse or pressing a key on the keyboard, these actions trigger events.
+Events then perform set activities as a response to these triggers.
+Handling an event in React is very similar to that in the DOM architecture.
+
+How are events created in React?
+Events can be created very easily in React as shown here:
+class Display extends React.Component({ 
+show(evt) {
+// Code inside
+},
+render() {
+// Render the div with an onClick prop (value is a function) 
+return(
+<div onClick={this.show}>Click Here</div>
+);
+}
+});
+
+
+Event Loop:An event loop is something that pulls stuff out of the queue and places it onto the function execution stack whenever the function stack becomes empty. The event loop is the secret by which JavaScript gives us an illusion of being multithreaded even though it is single-threaded.
+
+
+Lifecycle methods
+The following are the three phases of a component life cycle:
+Initial rendering: This is the phase that involves the beginning of the journey of the component to the DOM.
+Update: Here, the component can be updated and rendered again if required after it gets added to the DOM.
+Unmounting: The final phase involves the destruction of the component and its eventual removal from the DOM.
+
+componentDidMount() => first time returns an action. API calls, retrieving data. Only once when component is mounted.
+works as useEffect(()=>{},[])
+componetDidUpdate() => triggers if state value or a components updates 
+works as useEffect(()=>{},[dependency])
+componentWillUnmount() => if component is deleted removing from the DOM.
+Works as useEffect(()=>{return () => {…}},[])
+Life Cycle methods => 
+Inistialising =>
+Mounting =>componentdidmount(), render(), componentwillmount()
+Rendering =>
+Unmounting =>componentwillunmount()
+
+
+Diff Context API, restful API
+React Context API => provider, consumer
+Prop drilling can be handled by context API.
+Context API – same handle data same as redux inbuild with react, it is hard to understand and write
+Use to share data with multiple components, without passing data through props manually
+
+{createContext} from ‘react’
+
+export const store = createContext();
+const [data, setData] = useState(0);
+<store.Provider value={[data,setData]}>
+</store.Provider>
+
+To use the states created from context, need to use useContext
+
+{useContext} from ‘react’
+Const [data,setData] = useContext(store);
+return {data}
+
+
+Stateful components in React ?
+Stateful components are entities that store the changes that happen and place them into the memory.
+Here, the state can be changed, alongside storing information such as past, current, and future changes.
+
+Differentiate between a controlled component and an uncontrolled component in React.
+A controlled component, as the name suggests, is a component over which React has complete control.
+It is the singular point of data for the forms.
+An uncontrolled component, is one where the form data gets handled by DOM and not the React component.
+This is usually done using refs in React.
+
+
+
+Redux in React JS?
+Redux is used to store the state of the application in a single entity. This simple entity is usually a JavaScript object. Changing states can be done by pushing out actions from the application and writing corresponding objects for them that are used to modify the states.
+For example:
+    { 
+    first_name: John', 
+    last_name: 'Kelly', 
+    age: 25 
+    }
+All of the data is retained by Redux (also called a store).
+Redux consists of four main components as shown below:
+Action: 
+An object that describes the call
+Reducer: 
+The state change storage unit
+Store: 
+the state and object tree storage
+View: 
+Displays data provided by the store
+Open source library, for single storage => to store data for application distribute to all components
+React redux – open source library installed, easy to understand
+
+Organized Approach	Redux requires code to be organized, thereby making it consistent and easy to work with
+Testing Ability	Redux functions are small and isolated, making the code more independent
+Tools	Developers can track actions and all of the tools in React using Redux easily
+Community	Redux has a larger community, helping users with efficient and easy-to-use libraries
+
+Redux used => Actions, Store, Reducers
+data flow => Global store variables
+Adv redux => Avoid prop drilling
+prop drilling in React JS => 
+4 components(A, B, C, D) 
+top to bottom A => D, props are passed
+to avoid this=>useContext()
+
+
+
+
+HOC(Higher Order Components) : 
+Takes a component as input and returns a components
+React.memo() is HOC
+
+API calls => 
+fetch -> comes with JS
+ need to convert to json object(js)
+
+fetch('path-to-the-resource-to-be-fetched')
+  .then((response) => {
+    // Code for handling the response
+response.json();	
+  })
+  .catch((error) => {
+    // Code for handling the error
+  });
+
+
+Axios 
+axios -> need to import an external Package
+no need to convert API response into json object
+
+axios.get('url')
+  .then((response) => {
+    // Code for handling the response
+  })
+  .catch((error) => {
+    // Code for handling the error
+  })
+
+Axios:
+
+Axios has url in request object.	
+Axios is a stand-alone third party package that can be easily installed.	
+Axios enjoys built-in XSRF protection.	
+Axios uses the data property.	
+Axios data contains the object.	
+Axios request is ok when status is 200 and statusText is ‘OK’.	
+Axios performs automatic transforms of JSON data.	
+Axios allows cancelling request and request timeout.	
+Axios has the ability to intercept HTTP requests.	
+Axios has built-in support for download progress.	
+Axios has wide browser support.	
+Axios “GET” call ignores data content	
+
+Fetch:
+
+Fetch has no url in request object.
+Fetch is built into most modern browsers; no installation is required as such.
+Fetch does not.
+Fetch uses the body property.
+Fetch’s body has to be stringified.
+Fetch request is ok when response object contains the ok property.
+Fetch is a two-step process when handling JSON data- first, to make the actual request; second, to call the .json() method on the response.
+Fetch does not.
+Fetch, by default, doesn’t provide a way to intercept requests.
+Fetch does not support upload progress.
+Fetch only supports Chrome 42+, Firefox 39+, Edge 14+, and Safari 10.1+ (This is known as Backward Compatibility).
+Fetch “GET” call can have body content
+
+
+Hoisting in React :
+Normal functions created using function keyword is hoisted but not the arrow functions
+Console.log(sum());
+Console.log(add());
+Console.log(abc());
+Const add=()=>{
+    Console.log(‘add’);
+}
+Var abc=()=>{
+    Console.log(‘var);
+}
+Function sum()
+{
+    Console.log(‘Sum func’);
+}
+//Output
+Sum func
+ReferenceError
+TypeError
+
+
+Diff Promise, asyn await :
+Callback -> Promise -> asyn await
+A Promise represents the completion or failure of an asynchronous operation. It will be in one of three states: pending, resolved, or rejected.
+The promise involves chaining
+Objects lets us to facilitate Asynchronous tasks in JS.
+Available Promise States and values :
+Pending (undefined)
+Fullfilled (resolved value)
+Rejected (reason for rejection)
+Const p1 = Promise.resolve(‘Hello’);
+Const p2 = 100;
+Const p3 = new Promise((resolve,reject) => {
+    setTimeout(resolve, 1000, ‘Welcome’);
+})
+Const p4 = Promise.reject(‘Rejected’);
+Available methods :
+
+Promise.all([promises]) – gives the result in an array, if any one promise is rejected the whole result will be rejected.
+Promise.all([p1,p2,p3]).then((values) => console.log(values));
+Output : 
+[Hello, 100, Welcome]
+
+Promise.race([[promises]) – gives the first result either it may be solved or rejected.
+Promise.race([p3,p1,p2]).then((values) => console.log(values));
+Output:
+Welcome
+
+Promise.allSettled([promises]) – gives result of all promises either those are solved or rejected with their status
+Promise.allSettled([p1,p2,p3,p4]).then((values)=>console.log(values))
+Output:
+[{status: ‘fulfilled’, value:’Hello’},
+{ status: ‘fulfilled’, value:100 },
+{ status: ‘fulfilled’, value:’World’ },
+{ status: ‘rejected, value:’Rejected’ }]
+
+Promise.any ([promises]) – gives anyone promise that is resolved
+Promise.any([p1,p4,p3]).then((values) =>console.log(values))
+Output:
+Hello
+Promise.any([p4,p3]).then((values) =>console.log(values))
+Output:
+World
+
+Example : 
+With fetch() need to convert to json()
+fetch(‘url’).then(response => response.json()).then(result => console.log(result));
+with axios() no need to convert
+axios.get(‘url’).then(result = > console.log(result.data));
+
+Async await : 
+Async Await is a newer feature introduced in ECMAScript 2017 (ES8) that simplifies the use of Promises in JavaScript. It makes the asynchronous code easier to read, write, and maintain.
+The promise involves chaining .then and .catch methods, whereas Async Await uses a try-catch block that looks more like synchronous code. With Promises, error handling is done using the .catch method, whereas with Async Await, error handling is done using a try-catch block.
+
+Async makes a function return a promise
+Await makes a function wait for a promise
+
+function step1(value, error){
+return new Promise((resolve, reject) => {
+if(!error){
+resolve(value + 10);
+}
+else{
+reject(‘Something went wrong!’)
+}
+})
+}
+
+async function result() {
+	let res = setp1(10,false);
+	return res;
+}
+console.log(result());
+returns, Promise 
+Promise {<pending>}
+[[PromiseState]] : “fulfilled”
+[[PromiseResult]] : 20
+
+async function result() {
+	let res = await setp1(10,false);
+	return res;
+}
+result().then(result = > console.log(result)).catch(error => console.log(error))
+20
+
+Or can be used as below:
+
+async function result() {
+	let res = await setp1(10,false);
+	console.log(res);
+	return res;
+}
+20
+
+
+Function curring:
+Const curry = (a)=>{
+Return(b) =>{
+Return a*b 
+}
+}
+Console.log(curry(3)(4))
+12
+
+
+Diff Rest, spread operator 
+both the spread operator and rest parameter have the same syntax which is three dots(…). Even though they have the same syntax they differ in functions.
+Rest parameter: The rest parameter is converse to the spread operator. while the spread operator expands elements of an iterable, the rest parameter compresses them. It collects several elements. In functions when we require to pass arguments but were not sure how many we have to pass, the rest parameter makes it easier.
+Const student = {
+Name:’Ram’,
+Age:22,
+Address:’Hyd’
+}
+Const {name, …rest} = student
+Console.log(rest)
+{
+Address:’Hyd’,
+Age:22
+}
+Spread operator => quickly copy all or part of an existing array or object into another array or object
+
+The spread operator helps us expand an iterable such as an array where multiple arguments are needed, it also helps to expand the object expressions. In cases where we require all the elements of an iterable or object to help us achieve a task, we use a spread operator.
+
+Const student = {
+Name:’Ram’,
+Age:22,
+Address:’Hyd’
+}
+Let studentOne = {…student, name:’Raj’}
+Console.log(studentOne)
+{
+Address:’Hyd’,
+Age:22,
+Name:’Raj’
+}
+
+
+
+
+Arrow functions =>
+An arrow function is used to write an expression in React. It allows users to manually bind components easily. The functionality of arrow functions can be very useful when you are working with higher-order functions particularly.
+Consider the following example:
+//The usual way 
+render() { 
+return(
+<MyInput onChange={this.handleChange.bind(this) } />
+);
+} 
+//Making use of the arrow function
+render() {
+return(
+<MyInput onChange={(e) => this.handleOnChange(e)} />
+);
+}
+
+
+1.Merge Two Arrays => spread operator
+
+const array1= [1,2];
+const array2 = [3,4];
+const all = [...array1, ...array2];
+console.log(all); // [1,2,3,4]
+
+const array1= [1,2];
+const array2 = [3,4];
+array1.push(…array2)
+console.log(array1); // [1,2,3,4]
+
+
+
+
+difference between state and props in React?
+Condition	Props	States
+Changes in child components	Yes	No
+Parent component changing values	Yes	No
+Changes inside components	No	Yes
+
+
+
+
+
+
+
+
+
+
+Explain Class, Fun components 
+Class Components => 
+This is the bread and butter of most modern web apps built in ReactJS. These components are simple classes (made up of multiple functions that add functionality to the application).
+
+functional components => 
+Functional components are some of the more common components that will come across while working in React. These are simply JavaScript functions. We can create a functional component to React by writing a JavaScript function.
+easy to write, and understand
+
+
+Hooks with ex
+Hooks => 
+Rules => always on top of the components, only used in functional components
+Basic hooks -> useState(), useContext(), useEffect()
+Additional -> useMemo(), useRef()
+Custom hooks -> not used recent times, but created once usenavigate() to navigate between pages
+
+
+Diff usememo, React.memo()
+React.memo(): this is not a hook
+This is used to prevent all of the unnecessary re- rendering carried out by the function components.
+
+
+Optimizing techniques in react application =>
+Memoizing React components to prevent unnecessary re-renders.
+Using the useCallback() => Hook returns a memoized callback function
+returns a memoized function
+Think of memoization as caching a value so that it does not need to be recalculated.
+and 
+useMemo() => 
+returns a memoized value 
+improve performance
+Code-splitting
+Functional Components & Component Interaction
+
+useMemo(()=>{
+return num1 + num2;
+},[num1,num2])
+
+
+Pure Components in React JS => for same arguments, gives same result every time
+same inputs => same results
+with Functional Components => useMemo()
+
+
+
+useRef()
+=> can be used in 16.6 v introduced 
+using useState() if value changes, component renders but using this if value changes, component will not render
+
+useState  re-render when content changes and update UI.
+useRef doesn’t cause a re-render.
+
+
+Usestate
+const [state, setState] = useState(initialState);
+
+Returns a stateful value, and a function to update it.
+During the initial render, the returned state (state) is the same as the value passed as the first argument (initialState).
+The setState function is used to update the state. It accepts a new state value and enqueues a re-render of the component.
+
+
+Useeffect
+is a React Hook that lets you synchronize a component with an external system.
+
+useEffect(setup, dependencies?)
+
+setup : The function with your Effect’s logic. Your setup function may also optionally return a cleanup function. When your component is first added to the DOM, React will run your setup function
+
+dependencies: The list of all reactive values referenced inside of the setup code. Reactive values include props, state, and all the variables and functions declared directly inside your component body.
+The data from the parent is known as props. You can only transfer data from parent to child and not vice versa. This means that the child components cannot update or modify the data on their own
+
+unidirectional data flow in React JS => n the React library we have the concept of Unidirectional Data Flow, that is, the data only transits between one of the parts to the other and not the reverse
+
+
+
+
+Graphql,query
+using Graphl QL
+so used useQuery() => graphQL => FE using useQuery()-query-> BE ->resolvers-data Sources-return to resolvers-schema-query-> FE
+
+
+usequery
+import { useQuery } from "react-query";
+useQuery is a custom hook within React Query used to fetch data in a React application. Under the hood, these hooks manage lots of things such as caching data after the initial fetch, re-fetching data in the background, etc.
+handle API requests and state management for React applications.
+UseQuery is a custom hook within ReactQuery that’s used to fetch data. It requires two hooks: a key, such as the string “users,” and a function to fetch the data like “fetchUsers.”
+useQuery is primarily used for fetching data from a server, commonly associated with HTTP GET requests. On the other hand,
+
+
+Uselazyquery
+useLazyQuery is another hook provided by Apollo Client, designed to execute queries in response to an event, not automatically upon component rendering.
+
+useMutation is specifically designed for mutating or modifying data, often associated with HTTP POST, PUT, DELETE, or any other data-changing operation
+
+
+React Server Components => data sources, resolvers, schemas
+Define your GraphQL schema
+Define your data set
+Define a resolver
+Create an instance of ApolloServer
+
+
+Schema
+
+
+Resolver
+
+
+Testing 
+Enzyme – shallow
+Apollo-client – ApolloClient, ApolloProvider, InMemoryChace
+As client asked not to use snapshots for testing moved to RTL(React Testing Library) from last 6 months
+RTL – render, screen
+
+Custom Hooks - 
+Navigate to a page on click of a button
+useLocation()
+security used in Project

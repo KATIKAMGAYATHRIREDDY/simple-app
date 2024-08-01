@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import One from "./Practise/Hooks/CustomeHooks/One";
 import Sample from "./Practise/Sample";
-import Simple from "./Practise/Simple";
+import Closure from "./Practise/Closure";
 import Two from "./Practise/Hooks/CustomeHooks/Two";
 import Home from "./Practise/Router/Home";
 import Parent from "./Practise/PassingProps/Parent";
@@ -22,6 +22,8 @@ import UseCallBack from "./Practise/Hooks/UseCallBack/UseCallBack";
 import Memo from "./Practise/Memo/Memo";
 import StrReverse from "./Practise/StrReverse";
 import DupliArray from "./Practise/DupliArray";
+import Timing from "./Practise/Timing";
+import Merge from "./Practise/Merge";
 
 function App() {
   return (
@@ -30,12 +32,14 @@ function App() {
       <Parent/> */}
       {/* <h1>Some tricky concepts</h1>
       <Sample /> */}
+      <h1>Merging Arrays</h1>
+      <Merge/>
       {/* <h1>Shallow Copy & Deep Copy</h1>
       <CopyConcept /> */}
       {/* <h1>Let var and Const Concepts</h1>
       <LetVarConst/> */}
       {/* <h1>Closure Example</h1>
-      <Simple /> */}
+      <Closure /> */}
       {/* <h1>Routing</h1>
       <Home /> */}
       {/* <h1>Call Back concept</h1>
@@ -64,8 +68,10 @@ function App() {
       <Two /> */}
       {/* <h1>String Reverse</h1>
       <StrReverse/> */}
-      <h1>Array Duplicates</h1>
-      <DupliArray/>
+      {/* <h1>Array Duplicates</h1>
+      <DupliArray/> */}
+      {/* <h1>SetTimeout and SetInterval Concept</h1>
+      <Timing/> */}
     </div>
   );
 }

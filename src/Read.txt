@@ -9,14 +9,27 @@ Inline – width and height, takes width of the content.
 Inblock - can give width and height, and it takes width of the parent element.
 Babel – compiler which converts JSX to JS so that it can be understandable.
 
-OOPs
-Polymosphism – one thing with many forms
-Abstraction - 
-Encapsulation - 
-Inheritance – Parent features in Children
+OOPs Concept: 
+
+reusability with Inheritance,
+flexibility with Polymorsphism
+easier to troubleshoot
+code maintainance
+
+Polymorsphism – one thing with many forms
+method overriding - same action in different ways
+
+Abstraction - hiding internal process and displaying only req info
+ex: ATM process
+
+Encapsulation - binding both data variable and methods in a same class
+
+Inheritance – Parent features, properties in Children
+ uses 'extends' keyword
+
+
 CSS – 
 To hide element
-
 Visibility – hidden, will take space
 Display – none, will not take space
 Padding – space inside element

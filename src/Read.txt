@@ -31,8 +31,35 @@ Let and const block scope, can’t re-declare
 
 
 ES6 – better performance
-Slice, spread, promise, callbacks, desturctuing, let,const
-ES5 – 
+Slice, spread, promise, callbacks, desturctuing, 
+let,const
+ES5 – only var keyword
+
+useStrick – ES5 – used to execute in a strick mode can’t use undeclard variables
+
+
+
+Positions in CSS
+Default position is static
+Absolute- element placed top
+Relative-
+After giving top/right/bottom/left the position of the particular part will be updated relative to the parent element
+If we are taking top/right/bottom/left then don’t use relative 
+Fixed- element placed at top, when scrolling this will stay fixed
+Sticky-(Relative+Fixed)- element placed relative to the parent element and then fixed when scrolling
+
+
+
+React fragments:
+Empty tags <></>
+Wrap multiple components we use fragments
+
+
+Diffing: 
+finding diff between perv VDOM and current VDOM
+Reconciliation : 
+After finding diff, process of syncing the diff to actual UI
+
 
 Routing – react router
 <Route path element={contact}/>
@@ -92,6 +119,7 @@ return(
 
 
 Can browsers read a JSX file?
+Can only read JS object, need to convert JSX file into JS object to transform we use babel then browsers can read.
 No, browsers cannot read JSX files directly.
 It can only read the objects provided by JavaScript.
 Now, to make a browser read a JSX file, it has to be transformed to a JavaScript object using JSX transformers, and only then it can be fed into the browser for further use in the pipeline.
@@ -307,6 +335,28 @@ The forEach() method executes a provided function once for each array element bu
 Let arr1 = [1,2,3]
 Console.log(Arr1.forEach((val,i,arr)=> arr[i] = val *2))
 It will not return array, now using forEach original array will also be updated.
+
+
+
+Data types:
+
+Primitive Data types:
+
+Primitive data types are the built-in data types provided by JavaScript. They represent single values and are not mutable. JavaScript supports the following primitive data types:
+1 Number:...
+2 String: ...
+3 Undefined: ...
+4 Boolean: ...
+5 Null: ...
+6 BigInt: ...
+7 Symbol:
+
+Non Primitive Data types:
+
+Non-primitive data types, also known as reference types, are objects and derived data types. They can store collections of values or more complex entities. The two key non-primitive data types in JavaScript are:
+1.Array
+2.Objects
+
 
 
 

@@ -1,14 +1,10 @@
 import React from "react";
-export function Child({ setChildData }) {
+export function Child({ getValue }) {
   return (
     <div>
       Child Block
       <br />
-      <input
-        type="button"
-        value={"Click"}
-        onClick={() => setChildData("Updated with Child Data")}
-      />
+      <input onChange={getValue}/>
       <br />
     </div>
   );

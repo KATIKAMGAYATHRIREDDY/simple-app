@@ -2,13 +2,16 @@ import React,{useState} from "react";
 import Child from "./Child";
 
 export default function Parent(){
-  const [childData, setChildData] = useState("Parent Data");
-    return(
+  const [childData, setChildData] = useState("type something");
+    const getValue = (e)=>{
+      setChildData(e.target.value)
+    }
+  return(
         <div>
     Parent Block
       <br />
       {childData}
-      <Child setChildData={setChildData} />
+      <Child getValue={getValue} />
       </div>
     )
 }

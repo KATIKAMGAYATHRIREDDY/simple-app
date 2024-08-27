@@ -24,6 +24,7 @@ import StrReverse from "./Practise/StrReverse";
 import DupliArray from "./Practise/DupliArray";
 import Timing from "./Practise/Timing";
 import Merge from "./Practise/Merge";
+import CallApplyBind from "./Practise/CallApplyBind";
 
 function App() {
   return (
@@ -32,8 +33,8 @@ function App() {
       <Parent/> */}
       {/* <h1>Some tricky concepts</h1>
       <Sample /> */}
-      <h1>Merging Arrays</h1>
-      <Merge/>
+      {/* <h1>Merging Arrays</h1>
+      <Merge/> */}
       {/* <h1>Shallow Copy & Deep Copy</h1>
       <CopyConcept /> */}
       {/* <h1>Let var and Const Concepts</h1>
@@ -66,12 +67,14 @@ function App() {
       {/* <h1>Custom Hooks</h1>
       <One />
       <Two /> */}
-      {/* <h1>String Reverse</h1>
-      <StrReverse/> */}
+      <h1>String Reverse</h1>
+      <StrReverse/>
       {/* <h1>Array Duplicates</h1>
       <DupliArray/> */}
       {/* <h1>SetTimeout and SetInterval Concept</h1>
       <Timing/> */}
+      {/* <h1>Call Apply Bind</h1>
+      <CallApplyBind/> */}
     </div>
   );
 }

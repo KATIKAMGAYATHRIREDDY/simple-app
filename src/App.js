@@ -41,8 +41,8 @@ function App() {
       <LetVarConst/> */}
       {/* <h1>Closure Example</h1>
       <Closure /> */}
-      {/* <h1>Routing</h1>
-      <Home /> */}
+      <h1>Routing</h1>
+      <Home />
       {/* <h1>Call Back concept</h1>
       <CallBack/> */}
       {/* <h1>Map, Filter and ForEach concepts</h1>
@@ -67,8 +67,8 @@ function App() {
       {/* <h1>Custom Hooks</h1>
       <One />
       <Two /> */}
-      <h1>String Reverse</h1>
-      <StrReverse/>
+      {/* <h1>String Reverse</h1>
+      <StrReverse/> */}
       {/* <h1>Array Duplicates</h1>
       <DupliArray/> */}
       {/* <h1>SetTimeout and SetInterval Concept</h1>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hoisting = () => {
     //functions created using function keyword can be hoisted but not the arrow functions
-    console.log(sum());
+    sum();
     //console.log(add());
     //this is an arrow function so can't be used before defined
     //console.log(abc());

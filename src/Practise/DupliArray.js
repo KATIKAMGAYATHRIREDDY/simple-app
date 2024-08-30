@@ -11,9 +11,9 @@ const DupliArray = () => {
     console.log({} == {})
   return (
     <div>
-      Origival array - {arr}<br/>
-      array after removing duplicates is - {removeDuplicates(arr)}<br/>
-      duplicates in array are - {getDuplicates(arr)}
+      Origival array - [{arr.join(',')}]<br/>
+      array after removing duplicates is - [{removeDuplicates(arr).join(',')}]<br/>
+      duplicates in array are - [{getDuplicates(arr).join(',')}]
     </div>
   )
 }

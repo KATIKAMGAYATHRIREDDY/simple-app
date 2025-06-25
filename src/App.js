@@ -31,8 +31,8 @@ function App() {
     <div className="App">
       {/* <h1>Passing Props</h1>
       <Parent/> */}
-      {/* <h1>Some tricky concepts</h1>
-      <Sample /> */}
+      <h1>Some tricky concepts</h1>
+      <Sample />
       {/* <h1>Merging Arrays</h1>
       <Merge/> */}
       {/* <h1>Shallow Copy & Deep Copy</h1>
@@ -41,8 +41,8 @@ function App() {
       <LetVarConst/> */}
       {/* <h1>Closure Example</h1>
       <Closure /> */}
-      <h1>Routing</h1>
-      <Home />
+      {/* <h1>Routing</h1>
+      <Home /> */}
       {/* <h1>Call Back concept</h1>
       <CallBack/> */}
       {/* <h1>Map, Filter and ForEach concepts</h1>

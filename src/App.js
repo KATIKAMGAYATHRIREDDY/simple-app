@@ -25,6 +25,7 @@ import DupliArray from "./Practise/DupliArray";
 import Timing from "./Practise/Timing";
 import Merge from "./Practise/Merge";
 import CallApplyBind from "./Practise/CallApplyBind";
+import Test from "./Practise/test";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
       <Parent/> */}
       <h1>Some tricky concepts</h1>
       <Sample />
+      <Test/>
       {/* <h1>Merging Arrays</h1>
       <Merge/> */}
       {/* <h1>Shallow Copy & Deep Copy</h1>

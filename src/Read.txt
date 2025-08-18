@@ -67,9 +67,8 @@ React fragments:
 Empty tags <></>
 Wrap multiple components we use fragments
 
-
 Diffing: 
-finding diff between perv VDOM and current VDOM
+finding diff between perivious VDOM and current VDOM
 Reconciliation : 
 After finding diff, process of syncing the diff to actual UI
 
@@ -588,7 +587,8 @@ TypeError
 
 Diff Promise, asyn await :
 Callback -> Promise -> asyn await
-A Promise represents the completion or failure of an asynchronous operation. It will be in one of three states: pending, resolved, or rejected.
+A Promise represents the completion or failure of an asynchronous operation.
+It will be in one of three states: pending, resolved, or rejected.
 The promise involves chaining
 Objects lets us to facilitate Asynchronous tasks in JS.
 Available Promise States and values :
@@ -608,7 +608,7 @@ Promise.all([p1,p2,p3]).then((values) => console.log(values));
 Output : 
 [Hello, 100, Welcome]
 
-Promise.race([[promises]) – gives the first result either it may be solved or rejected.
+Promise.race([promises]) – gives the first result either it may be solved or rejected.
 Promise.race([p3,p1,p2]).then((values) => console.log(values));
 Output:
 Welcome

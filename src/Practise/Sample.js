@@ -14,6 +14,38 @@ export function Sample() {
   // c= 25
   // var c;
   // console.log(c);
+  let users = [
+    {
+      name: 'ram',
+      age: 21,
+    },
+    {
+      name: 'ramu',
+      age: 20,
+    },
+    {
+      name: 'ravi',
+      age: 22,
+    },
+    {
+      name: 'raju',
+      age: 24,
+    },
+  ];
+  console.log('Initial Array==>', users);
+  users.forEach(user => {
+    if (user.name === 'ram') {
+      user.name = 'Sita';
+    }
+  });
+  console.log('Users Updated Array==>', users);
+  let newArray = users.map(i => {
+    if (i.name === 'ram') {
+      return { ...i, name: 'Sita' };
+    }
+    return i;
+  });
+  console.log('New Array==>', newArray);
   return (
     <div>
       Strings with Arithmatic Operations

@@ -17,7 +17,7 @@ const Axios = () => {
   return (
     <div>
         <h2>Using Axios</h2>
-        {data.map(value => <li>{value.id}</li>)}
+        {data.map(value => <p>{value.id <=10 && value.title}</p>)}
     </div>
   )
 }

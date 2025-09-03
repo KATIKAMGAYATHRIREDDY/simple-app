@@ -16,7 +16,7 @@ const Fetch = () => {
   return (
     <div>
         <h2>Using Fetch</h2>
-        {data.map(value => <li>{value.title}</li>)}
+         {data.map(value => <p>{value.id <=10 && value.title}</p>)}
     </div>
   )
 }

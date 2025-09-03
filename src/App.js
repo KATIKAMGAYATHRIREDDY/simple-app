@@ -32,9 +32,9 @@ function App() {
     <div className="App">
       {/* <h1>Passing Props</h1>
       <Parent/> */}
-      <h1>Some tricky concepts</h1>
+      {/*<h1>Some tricky concepts</h1>
       <Sample />
-      <Test/>
+      <Test/> */}
       {/* <h1>Merging Arrays</h1>
       <Merge/> */}
       {/* <h1>Shallow Copy & Deep Copy</h1>
@@ -55,26 +55,26 @@ function App() {
       <Promises/> */}
       {/* <h1>Async await Concept</h1>
       <AsyncAwait/> */}
-      {/* <h1>API Calling</h1>
+      <h1>API Calling</h1>
       <Axios/>
-      <Fetch/> */}
+      <Fetch/>
       {/* <h1>Memo concept</h1>
       <Memo/> */}
-      {/* <h1>Hooks</h1>
+      <h1>Hooks</h1>
       <UseMemo/>
       <UseRef/>
-      <UseCallBack/> */}
+      <UseCallBack/>
       {/* <h1>Context API</h1>
       <ContextAPI/> */}
-      {/* <h1>Custom Hooks</h1>
+      <h1>Custom Hooks</h1>
       <One />
-      <Two /> */}
-      {/* <h1>String Reverse</h1>
-      <StrReverse/> */}
-      {/* <h1>Array Duplicates</h1>
-      <DupliArray/> */}
-      {/* <h1>SetTimeout and SetInterval Concept</h1>
-      <Timing/> */}
+      <Two />
+      <h1>String Reverse</h1>
+      <StrReverse/>
+      <h1>Array Duplicates</h1>
+      <DupliArray/>
+      <h1>SetTimeout and SetInterval Concept</h1>
+      <Timing/>
       {/* <h1>Call Apply Bind</h1>
       <CallApplyBind/> */}
     </div>

@@ -1,3 +1,13 @@
+VS code setup :
+Install Node JS
+Install GIT 
+open vs code and setup git repo using below two cmds
+
+--> git config --global user.name "katikam gayathri reddy"
+
+--> git config --global user.email "katikamgayathrireddy773@gmail.com"
+
+
 Why we use doctype in HTML
 -to tell browser which version of html we are using.
 Head tag

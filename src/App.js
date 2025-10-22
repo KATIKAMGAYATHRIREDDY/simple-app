@@ -41,8 +41,8 @@ function App() {
       <LetVarConst/> */}
       {/* <h1>Closure Example</h1>
       <Closure /> */}
-      <h1>Routing</h1>
-      <Home />
+      {/* <h1>Routing</h1>
+      <Home /> */}
       {/* <h1>Call Back concept</h1>
       <CallBack/> */}
       {/* <h1>Map, Filter and ForEach concepts</h1>
@@ -53,9 +53,9 @@ function App() {
       <Promises/> */}
       {/* <h1>Async await Concept</h1>
       <AsyncAwait/> */}
-      {/* <h1>API Calling</h1>
-      <Axios/>
-      <Fetch/> */}
+      <h1>API Calling</h1>
+      {/* <Axios/> */}
+      <Fetch/>
       {/* <h1>Memo concept</h1>
       <Memo/> */}
       {/* <h1>Hooks</h1>

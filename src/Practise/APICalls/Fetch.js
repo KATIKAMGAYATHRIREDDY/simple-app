@@ -1,4 +1,5 @@
 import React,{useEffect, useState} from 'react'
+import NewFetch from './Practise';
 
 const Fetch = () => {
     const [data, setData] = useState([]);
@@ -16,7 +17,8 @@ const Fetch = () => {
   return (
     <div>
         <h2>Using Fetch</h2>
-        {data.map(value => <li>{value.title}</li>)}
+        <NewFetch />
+        {/* {data.map(value => <li>{value.title}</li>)} */}
     </div>
   )
 }

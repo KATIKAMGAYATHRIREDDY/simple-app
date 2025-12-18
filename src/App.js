@@ -26,6 +26,8 @@ import Timing from "./Practise/Timing";
 import Merge from "./Practise/Merge";
 import CallApplyBind from "./Practise/CallApplyBind";
 import Test from "./Practise/test";
+import TodoList from "./Practise/ToDoList";
+import Prime from "./Practise/Prime";
 
 function App() {
   return (
@@ -55,6 +57,10 @@ function App() {
       <Promises/> */}
       {/* <h1>Async await Concept</h1>
       <AsyncAwait/> */}
+      <h1>Prime Number Check</h1>
+      <Prime/>
+      <h1>To-Do List App</h1>
+      <TodoList/>
       <h1>API Calling</h1>
       <Axios/>
       <Fetch/>
